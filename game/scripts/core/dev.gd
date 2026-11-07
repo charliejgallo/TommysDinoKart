@@ -1,13 +1,29 @@
 extends Node
-## Developer hooks from command-line user args (after `--`):
-##   --shot=<png>        save a screenshot of the window and quit
-##   --shot-after=<s>    seconds before the shot (default 2.0)
-##   --race=<track>      jump straight into a race on that track
+## Developer hooks from command-line user args (after `--`). Any of them
+## makes the game keep its settings, garage and ghosts in user://dev/ so a
+## family's real data is never touched. See docs/DEVELOPMENT.md.
+##   --race=<track>      jump straight into a race on that track (or arena)
+##   --mode=<m>          gp | free | time | battle (default free)
 ##   --drivers=a,b,..    pilots for --race (first = player 1)
 ##   --players=<n>       local players for --race (split screen)
-##   --ai-player         player karts are driven by the AI (demo / tests)
-##   --cam=<mode>        race camera for shots: chase (default), side, top, orbit
-##   --t=<s>             fast-forward the race clock (skip countdown etc.)
+##   --ai-player         player karts are driven by the AI (demos, tests)
+##   --autotest[=<x>]    run the whole race headless at x times speed, print
+##                       places, lap times, rescues and stuck karts, quit
+##   --limit=<s>         autotest: give up after this race time (default 400)
+##   --trace=<i>         print kart i's progress / speed / steering every 0.5 s
+##   --t=<s>             run the race clock fast until it reaches s
+##   --cam=<mode>        race camera for shots: chase, side, front, top, orbit, grid
+##   --nohud             hide the HUD (track preview pictures)
+##   --shot=<png>        save a screenshot of the window and quit
+##   --shot-after=<s>    seconds before the shot (default 2.0)
+##   --lang=<code>       language for this run (es, en, ...)
+##   --menu=<page>       open the menus on a page (main, mode, track, cup,
+##                       parents, garage, garage_kart, settings_open, rest, ...)
+##   --keys=k,wait:s,..  type keys (enter, space, up, down, left, right, z, x,
+##                       e, esc; key:hold seconds) to drive the menus
+##   --scene=<name>      run scripts/dev/<name>.gd: lineup (all karts on a
+##                       lawn: --only, --cols, --zoom, --drvdir) or portraits
+##                       (renders assets/ui/portraits/*.png)
 ##   --fps               print fps / draw calls every second
 
 var _shot := ""

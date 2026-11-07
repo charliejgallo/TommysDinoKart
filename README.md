@@ -7,7 +7,8 @@
 <p align="center">
   Kart racing for children (and grown-ups) with Tommy and the dinosaurs of
   <a href="https://github.com/charliejgallo/TommysDinoZoo">Tommy's Dino Zoo</a>.<br>
-  macOS and Windows · keyboard or gamepads · up to 4 players on one screen · Spanish and English
+  macOS and Windows · keyboard or gamepads · up to 4 players on one screen · Spanish and English<br>
+  <a href="README.es.md">Leer en castellano</a>
 </p>
 
 ![Racing in Rex Valley under the giant bone arch](docs/img/valle-rex.png)
@@ -16,6 +17,18 @@ Pick Tommy or one of the 20 dinosaurs of the zoo and race against seven
 others. Every pilot and every track is open from the first minute: nothing
 has to be unlocked. Coins collected on the track only buy looks in the
 garage (kart bodies, wheels and colours).
+
+## Download
+
+Get the latest **TommysDinoKart-macOS.zip** or **TommysDinoKart-Windows.zip**
+from the [Releases](https://github.com/charliejgallo/TommysDinoKart/releases) page.
+
+- **macOS** (Apple silicon and Intel, macOS 11 or later): unzip and open
+  *Tommy's Dino Kart*. The app is not notarised, so the first time
+  right-click it, choose **Open**, then **Open** again (or allow it in
+  System Settings → Privacy & Security).
+- **Windows** (64-bit): unzip and run `TommysDinoKart.exe`. If SmartScreen
+  warns about an unknown app, choose **More info → Run anyway**.
 
 ## What's in it
 
@@ -43,8 +56,24 @@ garage (kart bodies, wheels and colours).
 - **Nobody gets lost**: falling off the track or getting stuck calls a
   friendly pterosaur that carries the kart back to the road.
 
+### Items
+
+| item | what it does | friendly |
+|---|---|---|
+| Feather turbo / three feathers | a burst of speed | ✓ |
+| Bubble | blocks the next hit | ✓ |
+| Golden fern | a few seconds faster and untouchable | ✓ |
+| Ptera ride | a pterosaur flies you ahead for 3 seconds | ✓ |
+| Bouncing egg / three eggs | thrown ahead (or behind while braking), bounces between the curbs | |
+| Seeker egg | chases the kart just ahead | |
+| Mud puddle | dropped behind, makes the next kart skid | |
+| Roar | spins out the karts close by | |
+
 ![The twelve tracks](docs/img/tracks-1.jpg)
 ![The twelve tracks](docs/img/tracks-2.jpg)
+
+![Title screen](docs/img/title.jpg)
+![Balloon battle on Egg Island](docs/img/battle.jpg)
 
 ## For parents
 
@@ -79,6 +108,13 @@ Up to four players: each one presses A on their own gamepad on the
 
 ![Four players on one screen](docs/img/split-4.jpg)
 
+## Saved data
+
+Settings, coins, karts and time-trial ghosts are kept per user in Godot's
+data folder (`~/Library/Application Support/Godot/app_userdata/Tommy's Dino Kart`
+on macOS, `%APPDATA%\Godot\app_userdata\Tommy's Dino Kart` on Windows).
+Deleting it resets everything.
+
 ## Building
 
 Everything is made from text: models are Python scripts for Blender
@@ -97,4 +133,9 @@ godot --path game                                                               
 godot --headless --path game -- --race=bosque --ai-player --autotest=8          # 8 AIs race a whole cup race
 ```
 
-MIT licence. The dinosaurs and Tommy come from Tommy's Dino Zoo.
+How it all fits together, the developer switches and how to add pilots,
+tracks, items or languages: [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md).
+Track and world format: [docs/TRACKS.md](docs/TRACKS.md).
+
+MIT licence (see [LICENSE](LICENSE)). The dinosaurs and Tommy come from
+[Tommy's Dino Zoo](https://github.com/charliejgallo/TommysDinoZoo).

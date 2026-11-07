@@ -37,7 +37,7 @@ jobs:
         run: |
           mkdir -p dist/windows
           godot --headless --path game --export-release "Windows" "../dist/windows/TommysDinoKart.exe"
-          cp LICENSE README.md dist/windows/ && cd dist/windows && zip -qr ../TommysDinoKart-Windows.zip .
+          cp LICENSE README.md README.es.md dist/windows/ && cd dist/windows && zip -qr ../TommysDinoKart-Windows.zip .
       - uses: actions/upload-artifact@v4
         with:
           name: builds
