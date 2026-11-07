@@ -1,0 +1,558 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"X-Language-Name: English\n"
+
+msgid "driver.tommy"
+msgstr "Tommy"
+
+msgid "driver.trike"
+msgstr "Trike"
+
+msgid "driver.trex"
+msgstr "T-Rex"
+
+msgid "driver.raptor"
+msgstr "Raptor"
+
+msgid "driver.brachio"
+msgstr "Brachio"
+
+msgid "driver.ptera"
+msgstr "Ptera"
+
+msgid "driver.plesio"
+msgstr "Plesio"
+
+msgid "driver.archaeo"
+msgstr "Archie"
+
+msgid "driver.microraptor"
+msgstr "Micro"
+
+msgid "driver.iguanodon"
+msgstr "Iggy"
+
+msgid "driver.parasaur"
+msgstr "Parasaur"
+
+msgid "driver.therizino"
+msgstr "Therizino"
+
+msgid "driver.galli"
+msgstr "Galli"
+
+msgid "driver.spino"
+msgstr "Spino"
+
+msgid "driver.dilo"
+msgstr "Dilo"
+
+msgid "driver.carno"
+msgstr "Carno"
+
+msgid "driver.compy"
+msgstr "Compy"
+
+msgid "driver.stego"
+msgstr "Stego"
+
+msgid "driver.ankylo"
+msgstr "Ankylo"
+
+msgid "driver.proto"
+msgstr "Proto"
+
+msgid "driver.pachy"
+msgstr "Pachy"
+
+msgid "Vuelta %d/%d"
+msgstr "Lap %d/%d"
+
+msgid "de %d"
+msgstr "of %d"
+
+msgid "¡YA!"
+msgstr "GO!"
+
+msgid "¡LLEGASTE!"
+msgstr "FINISHED!"
+
+msgid "¡GENIAL!"
+msgstr "GREAT!"
+
+msgid "¡Última vuelta!"
+msgstr "Final lap!"
+
+msgid "Vuelta %d"
+msgstr "Lap %d"
+
+msgid "Resultados"
+msgstr "Results"
+
+msgid "Resultados · carrera %d de 4"
+msgstr "Results · race %d of 4"
+
+msgid "J%d"
+msgstr "P%d"
+
+msgid "Apretá A para seguir"
+msgstr "Press A to continue"
+
+msgid "Pausa"
+msgstr "Paused"
+
+msgid "Seguir"
+msgstr "Continue"
+
+msgid "Empezar de nuevo"
+msgstr "Restart"
+
+msgid "Salir al menú"
+msgstr "Quit to menu"
+
+msgid "track.pradera"
+msgstr "Zoo Meadow"
+
+msgid "track.bosque"
+msgstr "Fern Forest"
+
+msgid "track.laguna"
+msgstr "Turquoise Lagoon"
+
+msgid "track.playa"
+msgstr "Egg Beach"
+
+msgid "track.canon"
+msgstr "Red Canyon"
+
+msgid "track.pantano"
+msgstr "Misty Swamp"
+
+msgid "track.nevado"
+msgstr "Snowy Peaks"
+
+msgid "track.selva"
+msgstr "Night Jungle"
+
+msgid "track.cuevas"
+msgstr "Crystal Caves"
+
+msgid "track.volcan"
+msgstr "Roaring Volcano"
+
+msgid "track.acantilado"
+msgstr "Ptera Cliffs"
+
+msgid "track.valle_rex"
+msgstr "Rex Valley"
+
+msgid "track.arena_patio"
+msgstr "Zoo Yard"
+
+msgid "track.arena_isla"
+msgstr "Egg Island"
+
+msgid "track.arena_crater"
+msgstr "Crater"
+
+msgid "track.arena_templo"
+msgstr "Lost Temple"
+
+msgid "cup.fern"
+msgstr "Fern Cup"
+
+msgid "cup.amber"
+msgstr "Amber Cup"
+
+msgid "cup.volcano"
+msgstr "Volcano Cup"
+
+msgid "¡A correr!"
+msgstr "Let's race!"
+
+msgid "Garaje"
+msgstr "Garage"
+
+msgid "Ajustes"
+msgstr "Settings"
+
+msgid "Para grandes"
+msgstr "Grown-ups"
+
+msgid "Salir"
+msgstr "Quit"
+
+msgid "¿Qué jugamos?"
+msgstr "What shall we play?"
+
+msgid "Gran Premio"
+msgstr "Grand Prix"
+
+msgid "Carrera libre"
+msgstr "Free race"
+
+msgid "Contrarreloj"
+msgstr "Time trial"
+
+msgid "Batalla de globos"
+msgstr "Balloon battle"
+
+msgid "Volver"
+msgstr "Back"
+
+msgid "¿Quiénes juegan?"
+msgstr "Who's playing?"
+
+msgid "Cada jugador aprieta A en su joystick para sumarse (o E / Enter en el teclado).\nJugador 1: A para empezar · B para volver"
+msgstr "Each player presses A on their controller to join (or E / Enter on the keyboard).\nPlayer 1: A to start · B to go back"
+
+msgid "Jugador %d"
+msgstr "Player %d"
+
+msgid "Apretá A"
+msgstr "Press A"
+
+msgid "Joystick %d"
+msgstr "Controller %d"
+
+msgid "Teclado"
+msgstr "Keyboard"
+
+msgid "Teclado (WASD)"
+msgstr "Keyboard (WASD)"
+
+msgid "Teclado (flechas)"
+msgstr "Keyboard (arrows)"
+
+msgid "Jugador %d: elegí tu piloto"
+msgstr "Player %d: pick your driver"
+
+msgid "◀ ▶ ▲ ▼ elegir · A confirmar · B volver"
+msgstr "◀ ▶ ▲ ▼ choose · A confirm · B back"
+
+msgid "Liviano: arranca rapidísimo"
+msgstr "Light: super quick start"
+
+msgid "Mediano: equilibrado"
+msgstr "Medium: balanced"
+
+msgid "Pesado: empuja a los demás"
+msgstr "Heavy: pushes the others"
+
+msgid "Elegí una copa"
+msgstr "Pick a cup"
+
+msgid "Elegí una pista"
+msgstr "Pick a track"
+
+msgid "Elegí una arena"
+msgstr "Pick an arena"
+
+msgid "¿Y ahora?"
+msgstr "What now?"
+
+msgid "¡Revancha!"
+msgstr "Rematch!"
+
+msgid "Otra pista"
+msgstr "Another track"
+
+msgid "Otro piloto"
+msgstr "Another driver"
+
+msgid "Menú principal"
+msgstr "Main menu"
+
+msgid "¡Podio!"
+msgstr "Podium!"
+
+msgid "Otra copa"
+msgstr "Another cup"
+
+msgid "¡Hora de descansar!"
+msgstr "Time for a rest!"
+
+msgid "Jugaste %d minutos. ¡Muy bien!\nLos dinos se van a dormir la siesta. Mañana seguimos."
+msgstr "You played for %d minutes. Well done!\nThe dinos are off for a nap. See you tomorrow."
+
+msgid "Salir del juego"
+msgstr "Quit the game"
+
+msgid "Seguir jugando (para grandes)"
+msgstr "Keep playing (grown-ups)"
+
+msgid "Sólo para grandes"
+msgstr "Grown-ups only"
+
+msgid "Escribí el PIN"
+msgstr "Type the PIN"
+
+msgid "¿Cuánto es %d × %d?"
+msgstr "What is %d × %d?"
+
+msgid "Idioma"
+msgstr "Language"
+
+msgid "Música"
+msgstr "Music"
+
+msgid "Sonidos"
+msgstr "Sounds"
+
+msgid "Pantalla completa"
+msgstr "Full screen"
+
+msgid "Calidad de imagen"
+msgstr "Picture quality"
+
+msgid "Liviana"
+msgstr "Light"
+
+msgid "Media"
+msgstr "Medium"
+
+msgid "Alta"
+msgstr "High"
+
+msgid "2 jugadores: pantalla"
+msgstr "2 players: screen"
+
+msgid "Arriba y abajo"
+msgstr "Top and bottom"
+
+msgid "Lado a lado"
+msgstr "Side by side"
+
+msgid "Nombres sobre los karts"
+msgstr "Names over the karts"
+
+msgid "Cámara más lejos"
+msgstr "Camera further back"
+
+msgid "Vibración del joystick"
+msgstr "Controller rumble"
+
+msgid "No"
+msgstr "No"
+
+msgid "Sí"
+msgstr "Yes"
+
+msgid "Estas opciones cambian cómo se juega. Los chicos no pueden entrar acá sin el PIN o la cuenta."
+msgstr "These options change how the game plays. Kids can't come in here without the PIN or the sum."
+
+msgid "Tiempo máximo por sesión"
+msgstr "Maximum time per session"
+
+msgid "Sin límite"
+msgstr "No limit"
+
+msgid "%d minutos"
+msgstr "%d minutes"
+
+msgid "Ítems"
+msgstr "Items"
+
+msgid "Sólo carreras (sin ítems)"
+msgstr "Racing only (no items)"
+
+msgid "Sólo ítems amables"
+msgstr "Friendly items only"
+
+msgid "Todos (con ataques)"
+msgstr "All (with attacks)"
+
+msgid "Golpes suaves (sólo frenan)"
+msgstr "Gentle hits (only slow down)"
+
+msgid "Velocidad"
+msgstr "Speed"
+
+msgid "Tortuga"
+msgstr "Turtle"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Rápida"
+msgstr "Fast"
+
+msgid "Turbo"
+msgstr "Turbo"
+
+msgid "Dificultad de los rivales"
+msgstr "Rival difficulty"
+
+msgid "Fácil"
+msgstr "Easy"
+
+msgid "Difícil"
+msgstr "Hard"
+
+msgid "Rivales que esperan al jugador"
+msgstr "Rivals wait for the player"
+
+msgid "Vueltas por carrera"
+msgstr "Laps per race"
+
+msgid "Los karts se empujan"
+msgstr "Karts push each other"
+
+msgid "Modo batalla"
+msgstr "Battle mode"
+
+msgid "Ganar monedas"
+msgstr "Earn coins"
+
+msgid "Ayudas por jugador"
+msgstr "Help for each player"
+
+msgid "J%d · acelerar solo"
+msgstr "P%d · auto accelerate"
+
+msgid "J%d · volante asistido"
+msgstr "P%d · steering help"
+
+msgid "Protección"
+msgstr "Protection"
+
+msgid "Pedir el PIN también para Ajustes"
+msgstr "Ask for the PIN for Settings too"
+
+msgid "Cambiar PIN"
+msgstr "Change PIN"
+
+msgid "Poner un PIN"
+msgstr "Set a PIN"
+
+msgid "PIN (si no hay, se pregunta una cuenta)"
+msgstr "PIN (without one, a sum is asked)"
+
+msgid "Tiempo jugado hoy: %d minutos"
+msgstr "Played today: %d minutes"
+
+msgid "Nuevo PIN (4 números, vacío = sin PIN)"
+msgstr "New PIN (4 digits, empty = no PIN)"
+
+msgid "Garaje · elegí qué kart arreglar"
+msgstr "Garage · pick a kart to customise"
+
+msgid "Monedas: %d"
+msgstr "Coins: %d"
+
+msgid "Chasis"
+msgstr "Body"
+
+msgid "Ruedas"
+msgstr "Wheels"
+
+msgid "Color"
+msgstr "Colour"
+
+msgid "Detalles"
+msgstr "Trim"
+
+msgid "Asiento"
+msgstr "Seat"
+
+msgid "Listo"
+msgstr "Done"
+
+msgid "Clásico"
+msgstr "Classic"
+
+msgid "Hueso"
+msgstr "Bone"
+
+msgid "Cáscara"
+msgstr "Eggshell"
+
+msgid "Gomas"
+msgstr "Tyres"
+
+msgid "Piedra"
+msgstr "Stone"
+
+msgid "Rojo"
+msgstr "Red"
+
+msgid "Naranja"
+msgstr "Orange"
+
+msgid "Amarillo"
+msgstr "Yellow"
+
+msgid "Verde lima"
+msgstr "Lime"
+
+msgid "Verde"
+msgstr "Green"
+
+msgid "Turquesa"
+msgstr "Turquoise"
+
+msgid "Celeste"
+msgstr "Sky blue"
+
+msgid "Azul"
+msgstr "Blue"
+
+msgid "Lila"
+msgstr "Lilac"
+
+msgid "Rosa"
+msgstr "Pink"
+
+msgid "Crema"
+msgstr "Cream"
+
+msgid "Noche"
+msgstr "Night"
+
+msgid "Dorado"
+msgstr "Gold"
+
+msgid "Plateado"
+msgstr "Silver"
+
+msgid "Fucsia neón"
+msgstr "Neon pink"
+
+msgid "Verde neón"
+msgstr "Neon green"
+
+msgid "Violeta eléctrico"
+msgstr "Electric violet"
+
+msgid "Ámbar"
+msgstr "Amber"
+
+msgid "Batalla"
+msgstr "Battle"
+
+msgid "Globos: %d"
+msgstr "Balloons: %d"
+
+msgid "¡GANASTE!"
+msgstr "YOU WIN!"
+
+msgid "¡Te quedaste sin globos!"
+msgstr "Out of balloons!"
+
+msgid "Mejor vuelta"
+msgstr "Best lap"
+
+msgid "Fantasma"
+msgstr "Ghost"
+
+msgid "¡Nuevo récord!"
+msgstr "New record!"
+
+msgid "Récord: %s"
+msgstr "Record: %s"
+
+msgid "Tiempo"
+msgstr "Time"
+

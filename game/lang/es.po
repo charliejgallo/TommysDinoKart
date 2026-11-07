@@ -1,0 +1,126 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: es\n"
+"X-Language-Name: Español\n"
+
+msgid "driver.tommy"
+msgstr "Tommy"
+
+msgid "driver.trike"
+msgstr "Tricera"
+
+msgid "driver.trex"
+msgstr "T-Rex"
+
+msgid "driver.raptor"
+msgstr "Raptor"
+
+msgid "driver.brachio"
+msgstr "Braquio"
+
+msgid "driver.ptera"
+msgstr "Ptera"
+
+msgid "driver.plesio"
+msgstr "Plesio"
+
+msgid "driver.archaeo"
+msgstr "Archi"
+
+msgid "driver.microraptor"
+msgstr "Micro"
+
+msgid "driver.iguanodon"
+msgstr "Iguano"
+
+msgid "driver.parasaur"
+msgstr "Parasaurio"
+
+msgid "driver.therizino"
+msgstr "Terizino"
+
+msgid "driver.galli"
+msgstr "Galli"
+
+msgid "driver.spino"
+msgstr "Espino"
+
+msgid "driver.dilo"
+msgstr "Dilo"
+
+msgid "driver.carno"
+msgstr "Carno"
+
+msgid "driver.compy"
+msgstr "Compy"
+
+msgid "driver.stego"
+msgstr "Estego"
+
+msgid "driver.ankylo"
+msgstr "Anquilo"
+
+msgid "driver.proto"
+msgstr "Proto"
+
+msgid "driver.pachy"
+msgstr "Paqui"
+
+msgid "track.pradera"
+msgstr "Pradera del Zoo"
+
+msgid "track.bosque"
+msgstr "Bosque de Helechos"
+
+msgid "track.laguna"
+msgstr "Laguna Turquesa"
+
+msgid "track.playa"
+msgstr "Playa de los Huevos"
+
+msgid "track.canon"
+msgstr "Cañón Rojo"
+
+msgid "track.pantano"
+msgstr "Pantano Brumoso"
+
+msgid "track.nevado"
+msgstr "Cumbres Nevadas"
+
+msgid "track.selva"
+msgstr "Selva de Noche"
+
+msgid "track.cuevas"
+msgstr "Cuevas de Cristal"
+
+msgid "track.volcan"
+msgstr "Volcán Rugiente"
+
+msgid "track.acantilado"
+msgstr "Acantilado de las Pteras"
+
+msgid "track.valle_rex"
+msgstr "Valle Rex"
+
+msgid "track.arena_patio"
+msgstr "Patio del Zoo"
+
+msgid "track.arena_isla"
+msgstr "Isla Huevo"
+
+msgid "track.arena_crater"
+msgstr "Cráter"
+
+msgid "track.arena_templo"
+msgstr "Templo Perdido"
+
+msgid "cup.fern"
+msgstr "Copa Helecho"
+
+msgid "cup.amber"
+msgstr "Copa Ámbar"
+
+msgid "cup.volcano"
+msgstr "Copa Volcán"
+

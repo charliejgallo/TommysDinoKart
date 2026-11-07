@@ -1,0 +1,53 @@
+name: build
+
+# Every push builds both zips; a tag v* also publishes a release with them.
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: 4.7.2
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Godot and export templates
+        run: |
+          base=https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable
+          curl -sSL -o godot.zip $base/Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip
+          unzip -q godot.zip && mv Godot_v${GODOT_VERSION}-stable_linux.x86_64 /usr/local/bin/godot
+          curl -sSL -o tpl.tpz $base/Godot_v${GODOT_VERSION}-stable_export_templates.tpz
+          mkdir -p ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable
+          unzip -q tpl.tpz && mv templates/* ~/.local/share/godot/export_templates/${GODOT_VERSION}.stable/
+      - name: Import
+        run: godot --headless --path game --import
+      - name: Export macOS
+        run: |
+          mkdir -p dist
+          godot --headless --path game --export-release "macOS" "../dist/TommysDinoKart-macOS.zip"
+      - name: Export Windows
+        run: |
+          mkdir -p dist/windows
+          godot --headless --path game --export-release "Windows" "../dist/windows/TommysDinoKart.exe"
+          cp LICENSE README.md dist/windows/ && cd dist/windows && zip -qr ../TommysDinoKart-Windows.zip .
+      - uses: actions/upload-artifact@v4
+        with:
+          name: builds
+          path: |
+            dist/TommysDinoKart-macOS.zip
+            dist/TommysDinoKart-Windows.zip
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/TommysDinoKart-macOS.zip
+            dist/TommysDinoKart-Windows.zip
